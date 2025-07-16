@@ -1,16 +1,9 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
-# Install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy app
 COPY . .
 
-# Default command
-# CMD ["python3", "app.py"]
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["streamlit", "run", "app.py", "--server.port=8081", "--server.address=0.0.0.0"]
-
+CMD ["streamlit", "run", "app.py"]
