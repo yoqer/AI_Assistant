@@ -1,4 +1,4 @@
-# 🧠 Simple AI Assistant Docker App with Chat Memory
+# 🧠 Simple AI Assistant Docker App that Remembers
 
 This project is a **production-ready AI chat app** built with Docker Model Runner, Streamlit, and LangChain. It lets you talk to a local LLM running via Docker, or switch seamlessly to a large cloud-based model (like those on OpenRouter), all **while remembering your entire conversation history**.
 
