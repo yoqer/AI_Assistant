@@ -1,6 +1,8 @@
 # 🧠 Simple AI Assistant Docker App with Chat Memory
 
-This project is a **production-ready AI chat app** built with [Docker Model Runner](https://dockr.ly/4nT2saM), [Streamlit](https://streamlit.io), and [LangChain](https://python.langchain.com). It lets you talk to a local LLM running via Docker, or switch seamlessly to a large cloud-based model like those on [OpenRouter](https://openrouter.ai), all **while remembering your conversation history**.
+This project is a **production-ready AI chat app** built with [Docker Model Runner](https://dockr.ly/4nT2saM), [Streamlit](https://streamlit.io), and [LangChain](https://python.langchain.com). 
+<br>
+It lets you talk to a local LLM running via Docker, or switch seamlessly to a large cloud-based model like those on [OpenRouter](https://openrouter.ai), all **while remembering your conversation history**.
 
 ## 🎥 Video Tutorial
 <a href="https://youtu.be/oIqF0z2UhDM" target="_blank"><img width="600" alt="LLM Chat App with Memory thumbnail" src="https://github.com/user-attachments/assets/212c47bc-de25-4e35-9c23-e747a33d5d6e" /></a>
@@ -8,17 +10,17 @@ This project is a **production-ready AI chat app** built with [Docker Model Runn
 To build this application step by step, please watch my YouTube tutorial above. It will explain all the app processes, and the logic behind them.
 ---
 
-## 🌟 Features
+## ⭐ Features
 
-✅ Run local open-source LLMs with Docker Model Runner  
-✅ Clean Streamlit chat interface with message history  
-✅ Seamless switch between local and cloud models  
-✅ Context-passing for memory-aware responses  
-✅ Fully containerized with Docker Compose  
+1. Run local open-source LLMs with Docker Model Runner 🤖
+2. Clean Streamlit chat interface with message history 💻
+3. Seamless switch between local and cloud models 🕹️
+4. Context-passing for memory-aware responses 💡
+5. Fully containerized with Docker Compose  🐋
 
 ---
 
-## 📸 Demo
+## 📸 Screenshot
 
 > ![Demo Screenshot](your-screenshot.png) *(Optional - Add one!)*
 
