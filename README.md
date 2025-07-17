@@ -22,7 +22,7 @@ To build this application step by step, please watch my YouTube tutorial above. 
 
 ## 📸 Screenshot
 
-> ![Demo Screenshot](your-screenshot.png) *(Optional - Add one!)*
+<img width="600" alt="screenshot of Simple AI Assistant Chat App" src="https://github.com/user-attachments/assets/789ec4fd-bf47-44e7-ad3a-052dc954582a" />
 
 ---
 
