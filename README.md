@@ -8,8 +8,6 @@ To build this application step by step, please watch my YouTube tutorial below. 
 
 <a href="https://youtu.be/oIqF0z2UhDM" target="_blank"><img width="600" alt="LLM Chat App with Memory thumbnail" src="https://github.com/user-attachments/assets/212c47bc-de25-4e35-9c23-e747a33d5d6e" /></a>
 
----
-
 ## ⭐ Features
 
 1. Run local open-source LLMs with Docker Model Runner 🤖
@@ -18,13 +16,10 @@ To build this application step by step, please watch my YouTube tutorial below. 
 4. Context-passing for memory-aware responses 💡
 5. Fully containerized with Docker Compose  🐋
 
----
 
 ## 📸 Screenshot
 
 <img width="600" alt="screenshot of Simple AI Assistant Chat App" src="https://github.com/user-attachments/assets/789ec4fd-bf47-44e7-ad3a-052dc954582a" />
-
----
 
 ## ⚡️ Quick Start
 
@@ -33,16 +28,12 @@ To build this application step by step, please watch my YouTube tutorial below. 
 - [Docker Desktop](https://www.docker.com) installed and updated to current version.
 - Docker Model Runner **enabled** in Docker Desktop (see [official docs](https://dockr.ly/4nT2saM))
 
----
-
 ### 2️⃣ Clone This Repo
 
 <pre>
 git clone https://github.com/MariyaSha/simple_AI_assistant.git
 simple_AI_assistant
 </pre>
-
----
 
 ### 3️⃣ Create a `.env` File
 
@@ -61,8 +52,6 @@ OPENROUTER_API_KEY=YOUR_OPENROUTER_API_KEY
   - 👉 [Docker Model Catalog](https://dockr.ly/4eTeLQl)
   - 👉 [OpenRouter](https://openrouter.ai)
 
----
-
 ### 4️⃣ Run the App
 
 <pre>
@@ -75,8 +64,6 @@ http://localhost:8501
 
 ✅ Your AI chat app is ready to use!
 
----
-
 ## 🗂️ Project Structure
 
 ```
@@ -88,7 +75,6 @@ http://localhost:8501
 └── .env                  # Environment variables (you create this)
 ```
 
----
 
 ## 🧩 How It Works
 
@@ -98,7 +84,6 @@ http://localhost:8501
   - Passes the entire chat context to the LLM for memory-aware responses
   - Lets you switch between local and remote models with a simple checkbox
 
----
 
 ## 🚀 Customization
 
@@ -111,7 +96,6 @@ http://localhost:8501
 - **Dependencies**  
   Add any extra Python packages to `requirements.txt`.
 
----
 
 ## 📚 Helpful Links
 
@@ -121,17 +105,9 @@ http://localhost:8501
 - 🐍 [Streamlit](https://streamlit.io)  
 - 🦜 [LangChain for Python](https://python.langchain.com)
 
----
 
 ## 🤝 Contributing
 
 If you'd like to contribute, please create an issue and describe what you have in mind.
 <br>
 I'm trying to keep this repository as close as possible to the video workflow, but if you'd like to take it to the next level, I can split it in two.
-
----
-
-
-
-
-
