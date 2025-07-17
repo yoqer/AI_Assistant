@@ -4,7 +4,7 @@ This project is a **production-ready AI chat app** built with Docker Model Runne
 
 ## 🎥 Video Tutorial
 
-To build this application step by step, please watch my YouTube tutorial above. It will explain all the app processes, and the logic behind them.
+To build this application step by step, please watch my YouTube tutorial below. It will explain all the app processes, and the logic behind them.
 
 <a href="https://youtu.be/oIqF0z2UhDM" target="_blank"><img width="600" alt="LLM Chat App with Memory thumbnail" src="https://github.com/user-attachments/assets/212c47bc-de25-4e35-9c23-e747a33d5d6e" /></a>
 
@@ -30,7 +30,7 @@ To build this application step by step, please watch my YouTube tutorial above. 
 
 ### 1️⃣ Prerequisites
 
-- [Docker](https://www.docker.com) installed and updated
+- [Docker Desktop](https://www.docker.com) installed and updated to current version.
 - Docker Model Runner **enabled** in Docker Desktop (see [official docs](https://dockr.ly/4nT2saM))
 
 ---
@@ -38,8 +38,8 @@ To build this application step by step, please watch my YouTube tutorial above. 
 ### 2️⃣ Clone This Repo
 
 <pre>
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/MariyaSha/simple_AI_assistant.git
+simple_AI_assistant
 </pre>
 
 ---
