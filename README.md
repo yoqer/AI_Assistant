@@ -8,6 +8,7 @@ It lets you talk to a local LLM running via Docker, or switch seamlessly to a la
 <a href="https://youtu.be/oIqF0z2UhDM" target="_blank"><img width="600" alt="LLM Chat App with Memory thumbnail" src="https://github.com/user-attachments/assets/212c47bc-de25-4e35-9c23-e747a33d5d6e" /></a>
 
 To build this application step by step, please watch my YouTube tutorial above. It will explain all the app processes, and the logic behind them.
+
 ---
 
 ## ⭐ Features
