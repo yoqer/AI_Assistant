@@ -60,14 +60,20 @@ CVE-2025-12735: Vulnerabilidad en Docker Hardened Images
 
 
 
-✅ SOLUCIÓN PROPUESTA:
+✅ SOLUCIÓN POSIBLE:
+
 
 Docker Compose v2.40.2+ corrige CVE-2025-62725
 
+
 Docker Engine v29+ con últimos parches de seguridad
+
 
 Docker Desktop v4.44.3+ corrige CVE-2025-9074
 
+
+
+_____________________________
 
 
 
@@ -78,14 +84,23 @@ Docker Desktop v4.44.3+ corrige CVE-2025-9074
 
 
 
-✅ VERSIONES SEGURAS VERIFICADAS COMO:
+
+
+-✅ VERSIONES SEGURAS VERIFICADAS COMO:
+
+
 Docker Compose v2.40.2+ (corrige CVE-2025-62725)
 
+
 Docker Engine v25.0.5+ (sin vulnerabilidades conocidas)
+
 
 Docker Desktop 4.54.0+ (corrige CVE-2025-13743)
 
 
+
+
+_____________________________
 
 
 
