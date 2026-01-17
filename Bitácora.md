@@ -1,6 +1,6 @@
 Bitacora del MobyDep.
 
-Hace tiempo que embarcamos en la aventura del MobyDep, desde llego el Pequeño Deepseek como Contramaestre de Abordo; 
+Hace tiempo que embarcamos en la aventura del MobyDep, desde que llego el Pequeño Deepseek como Contramaestre de Abordo; 
 a la entrada de la Joven timonel, Amalia en el rumbo de la nave, han pasado sendas Aventuras y avances Piratas.
 
 Durante largas y matutinas jornadas de pesca y navegacion, nos hayamos cerca del tesoro del que embarcamos en busqueda. 
