@@ -33,7 +33,9 @@ Por lo que no podian faltar modelos en Local de la Nuestra Tripulación.        
 
 
 
+______________________________________________________________________
 
-Comenzamos por corregir los fallos de confianza fe Dicker Compose para actializar las ultimas versiones en proyectos Copilados.
+
+Comenzamos por corregir los fallos de confianza fe Docker Compose para actualizar las ultimas versiones en proyectos Copilados.
 
 Revisando la Nave Abordada:
