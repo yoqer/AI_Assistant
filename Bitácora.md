@@ -33,9 +33,65 @@ Por lo que no podian faltar modelos en Local de la Nuestra Tripulación.        
 
 
 
-______________________________________________________________________
+____________________________________________________________
 
 
-Comenzamos por corregir los fallos de confianza fe Docker Compose para actualizar las ultimas versiones en proyectos Copilados.
+
+
+Comenzamos por corregir los fallos de confianza de Docker Compose para actualizar las ultimas versiones en proyectos Copilados.
+
 
 Revisando la Nave Abordada:
+
+
+
+:
+
+🚨 VULNERABILIDADES CRÍTICAS DETECTADAS:
+
+CVE-2025-62725 (CVSS 8.9): Path traversal en Docker Compose
+
+
+CVE-2025-9074 (CVSS 9.3): Container escape en Docker Desktop
+
+
+CVE-2025-12735: Vulnerabilidad en Docker Hardened Images
+
+
+
+
+✅ SOLUCIÓN PROPUESTA:
+
+Docker Compose v2.40.2+ corrige CVE-2025-62725
+
+Docker Engine v29+ con últimos parches de seguridad
+
+Docker Desktop v4.44.3+ corrige CVE-2025-9074
+
+
+
+
+
+-Suerte que contamos con el 
+ Wakō de Genspark. Que opciones Propone?
+
+
+
+✅ VERSIONES SEGURAS VERIFICADAS COMO:
+Docker Compose v2.40.2+ (corrige CVE-2025-62725)
+
+Docker Engine v25.0.5+ (sin vulnerabilidades conocidas)
+
+Docker Desktop 4.54.0+ (corrige CVE-2025-13743)
+
+
+
+-Bien pero quiero un estudio en profundidaf; 
+y 
+Usted Señor Nemo...; 
+no olvide revisar bien la sala de maquinas, a ver si entiende porque no lleva remos el barco; no pase nada por alto, quiero una minucioda exploración de las bodegas y bajos del barco, busque en todas partes y no deje nada al azar; y recuerde no se olvide de vigilar lo que hace esa Astuta Oveja Contrabandista; 
+
+-Recuerde...; -Que es su Responsabilidad.  
+
+ 
+ 
