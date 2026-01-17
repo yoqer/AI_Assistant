@@ -110,7 +110,7 @@ _____________________________
 y 
 Usted Señor Nemo...; 
 mientras tanto 
-no se olvide de revisar bien a fondo la sala de maquinas, a ver si entiende porque no lleva remos este barco; no pase nada por alto, quiero una minuciosa exploración de las bodegas y bajos del Harqueo muerto; busque en todas partes y no deje nada al azar; y recuerde no se olvide de vigilar lo que hace y bebe esa Astuta Oveja Contrabandista; 
+no se olvide de revisar bien a fondo la sala de maquinas, a ver si entiende porque no lleva remos este barco; no pase nada por alto, quiero una minuciosa exploración de las bodegas y bajos del Harqueo muerto; busque por todas partes y no deje nada al azar; y recuerde no se olvide de vigilar lo que hace y bebe esa Astuta Oveja Contrabandista; 
 
 -Recuerde...; -Que es su Responsabilidad.  
 
