@@ -73,7 +73,8 @@ Docker Desktop v4.44.3+ corrige CVE-2025-9074
 
 
 -Suerte que contamos con el 
- Wakō de Genspark. Que opciones Propone?
+ Wakō de Genspark.  
+ -Que opciones Propone?
 
 
 
@@ -86,12 +87,18 @@ Docker Desktop 4.54.0+ (corrige CVE-2025-13743)
 
 
 
--Bien pero quiero un estudio en profundidaf; 
+
+
+
+-Bien eso de Seguro, suena bien mientras lo este; pero quiero un estudio en profundidad; 
+
 y 
 Usted Señor Nemo...; 
-no olvide revisar bien la sala de maquinas, a ver si entiende porque no lleva remos el barco; no pase nada por alto, quiero una minucioda exploración de las bodegas y bajos del barco, busque en todas partes y no deje nada al azar; y recuerde no se olvide de vigilar lo que hace esa Astuta Oveja Contrabandista; 
+mientras tanto 
+no se olvide de revisar bien a fondo la sala de maquinas, a ver si entiende porque no lleva remos este barco; no pase nada por alto, quiero una minuciosa exploración de las bodegas y bajos de flotacion del barco; busque en todas partes y no deje nada al azar; y recuerde no se olvide de vigilar lo que hace esa Astuta Oveja Contrabandista; 
 
 -Recuerde...; -Que es su Responsabilidad.  
 
- 
- 
+ <img width="960" height="960" alt="IMG_20250428_132938" src="https://github.com/user-attachments/assets/2580012d-175e-4c85-b2ee-430e3e691891" />
+
+ -Dicho y hecho, mi Capitán, no le quitare el ojo de encima.
