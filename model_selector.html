@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Selector de modelos (AI_Assistant)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background:#0b0f17; color:#e8eefc; }
+    header { padding: 16px 20px; border-bottom: 1px solid #24304a; background:#0f1626; }
+    header h1 { margin:0; font-size: 16px; }
+    header p { margin:6px 0 0; opacity:.8; font-size: 13px; }
+    main { max-width: 980px; margin: 0 auto; padding: 18px 20px 36px; }
+    .tabs { display:flex; gap:8px; flex-wrap:wrap; margin: 14px 0; }
+    .tab { border: 1px solid #2a3a5c; background:#111a2e; color:#cfe0ff; padding:10px 12px; border-radius: 10px; cursor:pointer; font-weight:600; font-size: 13px; }
+    .tab.active { background:#1a2a4f; border-color:#4b74ff; }
+    .panel { display:none; border:1px solid #24304a; background:#0f1626; padding:16px; border-radius: 14px; }
+    .panel.active { display:block; }
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+    @media (max-width: 820px) { .grid { grid-template-columns:1fr; } }
+    label { display:block; font-size: 12px; opacity:.9; margin: 6px 0; }
+    input, select, textarea {
+      width: 100%; box-sizing: border-box;
+      padding: 10px 10px; border-radius: 10px;
+      border:1px solid #2a3a5c; background:#0b1222; color:#e8eefc;
+      outline:none;
+    }
+    textarea { min-height: 120px; }
+    .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+    .btn {
+      display:inline-block; padding:10px 12px; border-radius: 10px;
+      background:#4b74ff; border:0; cursor:pointer; color:#081022; font-weight:800;
+    }
+    .btn.secondary { background:#1a2a4f; color:#cfe0ff; border:1px solid #2a3a5c; }
+    .note { font-size: 12px; opacity:.85; margin-top: 10px; }
+    .preview { margin-top:10px; border:1px dashed #2a3a5c; border-radius: 12px; padding:10px; }
+    .preview img { max-width: 100%; height:auto; display:block; border-radius: 12px; }
+    a { color:#9db6ff; }
+    code { background:#0b1222; padding:2px 6px; border-radius: 6px; border:1px solid #24304a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selector simple de modelos (AI_Assistant)</h1>
+    <p>
+      Genera configuración tipo <code>.env</code> para OpenRouter / Grok / endpoints OpenAI-compatibles y utilidades de ElevenLabs.
+      Incluye enlace a TERMINATOR (ZIP) porque el selector real no está expuesto públicamente.
+      [Repo AI_Assistant](https://github.com/yoqer/AI_Assistant) ·
+      [Repo TERMINATOR](https://github.com/yoqer/TERMINATOR) ·
+      [TERMINATOR_Complete.zip](https://raw.githubusercontent.com/yoqer/TERMINATOR/main/TERMINATOR_Complete.zip)
+    </p>
+  </header>
+
+  <main>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="models">Modelos</button>
+      <button class="tab" data-tab="eleven">ElevenLabs (TTS)</button>
+      <button class="tab" data-tab="image">Imagen</button>
+      <button class="tab" data-tab="export">Exportar</button>
+    </div>
+
+    <!-- MODELOS -->
+    <section class="panel active" id="models">
+      <div class="grid">
+        <div>
+          <label>Proveedor</label>
+          <select id="provider">
+            <option value="openrouter">OpenRouter (OpenAI compatible)</option>
+            <option value="grok">Grok (xAI / OpenAI compatible)</option>
+            <option value="custom">Custom OpenAI-compatible</option>
+            <option value="terminator">Terminator-Bridge (no compatible)</option>
+          </select>
+
+          <label>REMOTE_BASE_URL</label>
+          <input id="remoteBaseUrl" placeholder="https://openrouter.ai/api/v1" value="https://openrouter.ai/api/v1"/>
+
+          <label>REMOTE_MODEL_NAME</label>
+          <input id="remoteModel" placeholder="qwen/qwen3-30b-a3b" value="qwen/qwen3-30b-a3b" />
+
+          <label>API KEY (según proveedor)</label>
+          <input id="remoteKey" placeholder="Pega tu API key aquí" />
+
+          <p class="note">
+            Para Grok y Custom, usa el endpoint OpenAI-compatible que tengas.
+            Para Terminator-Bridge, aquí meterías la URL/clave del “puente” propio.
+          </p>
+        </div>
+
+        <div>
+          <div class="preview">
+            <strong>Enlace a la selección de TERMINATOR</strong>
+            <p class="note">
+              El repo público de TERMINATOR solo expone README y un ZIP (no hay HTML visible en claro). [Source](https://api.github.com/repos/yoqer/TERMINATOR/contents)
+            </p>
+            <div class="row">
+              <a href="https://github.com/yoqer/TERMINATOR" target="_blank" rel="noreferrer">Abrir repo TERMINATOR</a>
+              <span>·</span>
+              <a href="https://raw.githubusercontent.com/yoqer/TERMINATOR/main/TERMINATOR_Complete.zip" target="_blank" rel="noreferrer">
+                Abrir TERMINATOR_Complete.zip
+              </a>
+            </div>
+            <p class="note">
+              Cuando publiques el selector real de Terminator, cambia este enlace por tu <code>selector.html</code>.
+            </p>
+          </div>
+
+          <div class="preview">
+            <strong>Campos sugeridos para el bridge</strong>
+            <label>TERMINATOR_BRIDGE_URL</label>
+            <input id="terminatorBridgeUrl" placeholder="http://terminator:8080/api/chat" />
+            <p class="note">
+              Este proyecto (AI_Assistant) no trae un backend Terminator; esto es solo la UI para parametrizarlo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ELEVENLABS -->
+    <section class="panel" id="eleven">
+      <div class="grid">
+        <div>
+          <label>ELEVENLABS_API_KEY</label>
+          <input id="elevenKey" placeholder="Pega tu ElevenLabs API key" />
+          <label>ELEVENLABS_VOICE_ID (opcional)</label>
+          <input id="elevenVoice" placeholder="Ej: 21m00Tcm4TlvDq8ikWAM" />
+          <p class="note">
+            Esto prepara variables para que un “Terminator/bridge” o futura ampliación las use.
+          </p>
+        </div>
+        <div>
+          <div class="preview">
+            <strong>Uso previsto</strong>
+            <p class="note">
+              Este HTML no llama a ElevenLabs (no hay backend). Solo genera variables para integrarlas en un servicio (por ejemplo Terminator).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGEN -->
+    <section class="panel" id="image">
+      <div class="grid">
+        <div>
+          <label>Cargar imagen (local)</label>
+          <input type="file" id="imgInput" accept="image/*" />
+          <p class="note">
+            Previsualización local. Para subirla a una API necesitas un backend (no incluido en este repo).
+          </p>
+        </div>
+        <div>
+          <div class="preview" id="imgPreviewBox">
+            <strong>Preview</strong>
+            <div id="imgPreview"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPORT -->
+    <section class="panel" id="export">
+      <div class="row">
+        <button class="btn" id="generateBtn">Generar .env</button>
+        <button class="btn secondary" id="copyBtn">Copiar</button>
+      </div>
+
+      <label>Salida (.env sugerido)</label>
+      <textarea id="envOut" spellcheck="false"></textarea>
+
+      <p class="note">
+        Pega este bloque en tu <code>.env</code>. En Streamlit (app.py) el selector ya permite OpenRouter/Grok/Custom. El Terminator-Bridge requiere que tú expongas un endpoint HTTP propio.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    // Tabs
+    const tabs = document.querySelectorAll(".tab");
+    const panels = document.querySelectorAll(".panel");
+    tabs.forEach(t => t.addEventListener("click", () => {
+      tabs.forEach(x => x.classList.remove("active"));
+      panels.forEach(p => p.classList.remove("active"));
+      t.classList.add("active");
+      document.getElementById(t.dataset.tab).classList.add("active");
+    }));
+
+    // Image preview
+    const imgInput = document.getElementById("imgInput");
+    const imgPreview = document.getElementById("imgPreview");
+    imgInput.addEventListener("change", (e) => {
+      const f = e.target.files?.[0];
+      imgPreview.innerHTML = "";
+      if (!f) return;
+      const url = URL.createObjectURL(f);
+      const img = document.createElement("img");
+      img.src = url;
+      img.alt = "Preview";
+      imgPreview.appendChild(img);
+    });
+
+    // Export .env
+    function envLine(k, v) {
+      if (v === undefined || v === null) v = "";
+      return `${k}=${v}`;
+    }
+
+    document.getElementById("generateBtn").addEventListener("click", () => {
+      const provider = document.getElementById("provider").value;
+      const baseUrl = document.getElementById("remoteBaseUrl").value.trim();
+      const model = document.getElementById("remoteModel").value.trim();
+      const key = document.getElementById("remoteKey").value.trim();
+      const tBridge = document.getElementById("terminatorBridgeUrl").value.trim();
+
+      const elevenKey = document.getElementById("elevenKey").value.trim();
+      const elevenVoice = document.getElementById("elevenVoice").value.trim();
+
+      let out = [];
+      // Local
+      out.push(envLine("LOCAL_BASE_URL", "http://model-runner.docker.internal/engines/llama.cpp/v1"));
+      out.push(envLine("LOCAL_MODEL_NAME", "ai/qwen2.5"));
+
+      // Remote
+      out.push(envLine("REMOTE_BASE_URL", baseUrl));
+      out.push(envLine("REMOTE_MODEL_NAME", model));
+
+      // Keys by provider
+      if (provider === "openrouter") out.push(envLine("OPENROUTER_API_KEY", key));
+      if (provider === "grok") out.push(envLine("GROK_API_KEY", key));
+      if (provider === "custom") out.push(envLine("REMOTE_API_KEY", key));
+      if (provider === "terminator") out.push(envLine("TERMINATOR_BRIDGE_URL", tBridge));
+
+      // ElevenLabs
+      out.push(envLine("ELEVENLABS_API_KEY", elevenKey));
+      out.push(envLine("ELEVENLABS_VOICE_ID", elevenVoice));
+
+      document.getElementById("envOut").value = out.join("\n");
+    });
+
+    document.getElementById("copyBtn").addEventListener("click", async () => {
+      const txt = document.getElementById("envOut").value;
+      if (!txt) return;
+      await navigator.clipboard.writeText(txt);
+      alert("Copiado al portapapeles.");
+    });
+  </script>
+</body>
+  </html>
+                                            
