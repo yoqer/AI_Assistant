@@ -194,9 +194,10 @@ Mantengo extra_hosts:
 
 host.docker.internal:host-gateway 
 
-porque el local de LLM para charlar con Docker Model Runner, pero lo dejo explícito.
+en el local de LLM, 
+para charlar con Docker Model Runner, pero lo dejo explícito.
 
-Mantengo el servicio llm tal cual (provider model runner), porque es la mecánica de abordo.
+Mantengo el servicio llm tal cual (provider model runner), por mecánica de abordo.
 
 
 _____________________________
