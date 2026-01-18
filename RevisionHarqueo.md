@@ -93,13 +93,48 @@ así que aplica al entorno si se ejecuta Compose vulnerable.
 
 La mitigación real aquí es actualizar Docker Compose a v2.40.2+ 
 
-**Por lo que Repositorio ya explica usar la última versión.**
+**En el Repo ya se explica usar la última versión.**
 
 (no se “arregla” desde YAML). 
 
 Aun así, se puedo endurecer el compose para reducir superficie (evitar mounts innecesarios, read-only, no-new-privileges, etc.). 
 
 Source
+
+
+__________________________________________________________
+
+
+
+-Buena explicacion, ya casi lo comprendi, pero continúe, a que se refiere exactamente.
+
+
+
+
+
+-Bueno tampoco se encuentra en el .yaml, del Repo, solo los Grumetes avispados pueden no contener la última versión: 
+
+Exactamente en: 
+
+CVE-2025-9074
+(Container escape en Docker Desktop)
+
+En el Docker Desktop (host), 
+
+no del YAML. 
+
+Mitigación: 
+
+Docker Desktop 4.44.3+. 
+
+Source
+
+
+
+
+
+__________________________________________________________
+
 
 
 
