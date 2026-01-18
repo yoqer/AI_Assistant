@@ -97,7 +97,7 @@ La mitigación real aquí es actualizar Docker Compose a v2.40.2+
 
 (no se “arregla” desde YAML). 
 
-Aun así, se puedo endurecer el compose para reducir superficie (evitar mounts innecesarios, read-only, no-new-privileges, etc.). 
+Aun así, se puede endurecer el compose para reducir superficie (evitar mounts innecesarios, read-only, no-new-privileges, etc.). 
 
 Source
 
@@ -140,6 +140,66 @@ __________________________________________________________
 
 
 
+
+***Modificaciones Ajustadas***
+
+
+
+
+-Modificación:
+
+(docker-compose.yaml) 
+
+— versión endurecida
+
+
+Se Cambio, 
+
+por qué: 
+
+El bind mount
+
+./:/app 
+
+en producción es un riesgo 
+
+(modificación del código dentro del contenedor, exposición de secretos locales, etc.).
+
+Lo dejo como perfil “dev”, no por defecto.
+
+
+Añado hardening estándar:
+
+read_only: 
+
+true + tmpfs 
+
+para /tmp (y otras rutas)
+
+security_opt:
+
+no-new-privileges:
+
+true
+
+cap_drop:
+
+[ALL]
+
+pids_limit
+
+
+
+Mantengo extra_hosts: 
+
+host.docker.internal:host-gateway 
+
+porque el local de LLM para charlar con Docker Model Runner, pero lo dejo explícito.
+
+Mantengo el servicio llm tal cual (provider model runner), porque es la mecánica de abordo.
+
+
+_____________________________
 
 
 
