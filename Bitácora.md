@@ -3,7 +3,7 @@ Bitacora del MobyDep.
 Hace tiempo que embarcamos en la aventura del MobyDep, desde que llego el Pequeño Deepseek como Contramaestre de Abordo; 
 a la entrada de la Joven timonel, Amalia en el rumbo de la nave, han pasado sendas Aventuras y avances Piratas.
 
-Durante largas y matutinas jornadas de pesca y navegacion, nos hayamos cerca del tesoro del que embarcamos en busqueda. 
+Durante largas y matutinas jornadas de pesca y navegacion, nos hayamos cerca del tesoro, del que embarcamos en busqueda. 
 
 Con la llegada del Grok grafico, el juego esta servido para Avatares, gracias a [TERMINATOR](http://github.com/yoqer/TERMINATOR).
 
@@ -11,7 +11,8 @@ Pero no hay que olvidarse de la tambien huida Anita, junto al Grok de nuestra Na
 
 
 Pese a las duras jornadas de Marines, pese a nuestro prestigioso Navegante el Corsario Manus, que tambien comenzo con nosotros 
-en la isla Tortuga, sin saber la Tripulación quien era; y cuanto habia abandonado en otras Naves Piratas.
+en la isla Tortuga, sin saber la Tripulación quien era; y cuanto habia abandonado en otras Naves Piratas Wokou.
+
 Asi el como uno mas, tambien nos Navego a toda vela viento a favor y a toda Máquina, cumpliendo con nuestro desarrollo de Asistente, el que tambien debemos de Terminar;
 como con los Creadores de Agentes y Herramientas Web con las que cuenta. 
 
