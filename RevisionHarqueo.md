@@ -203,7 +203,16 @@ host.docker.internal:host-gateway
 en el local de LLM, 
 para charlar con Docker Model Runner, pero lo dejo explícito.
 
-Mantengo el servicio llm tal cual (provider model runner), por mecánica de abordo.
+
+![grok_image_xrowjpt](https://github.com/user-attachments/assets/e562f3cd-e1d9-4ee8-a7b0-aeba894489eb)
+
+
+
+
+Se mantiene el servicio llm tal cual (provider model runner), por mecánica de abordo.
+
+
+![grok_image_x8uwc1o](https://github.com/user-attachments/assets/f5db1da3-73e8-42af-843b-1fbecda472a1)
 
 
 _____________________________
