@@ -1,3 +1,6 @@
+
+
+
 -Efectivamente capitán la bodega no esta llena de Whisky como 
 creo que buscan esos dos bribones, pero el armazon es un casco 
 antiguo y no cuenta con las últimas mejoras actuales, como las de nuestro Gran TerMiNaTor.  
@@ -31,7 +34,7 @@ además de extra_hosts:
 
 host.docker.internal:host-gateway. 
 
-Source
+[Source](https://raw.githubusercontent.com/yoqer/AI_Assistant/main/docker-compose.yaml)
 
 
 app.py 
@@ -56,7 +59,7 @@ vs
 
 la cloud.
 
-Source
+[Source](https://raw.githubusercontent.com/yoqer/AI_Assistant/main/app.py)
 
 
 
@@ -64,14 +67,14 @@ Dockerfile usa python:
 
 3.12-slim.
 
-Source
+[Source](https://raw.githubusercontent.com/yoqer/AI_Assistant/main/Dockerfile)
 
 
 
 
 
 
-____________________________________________________________
+__________________________________________________________
 
 
 
@@ -99,8 +102,7 @@ La mitigación real aquí es actualizar Docker Compose a v2.40.2+
 
 Aun así, se puede endurecer el compose para reducir superficie (evitar mounts innecesarios, read-only, no-new-privileges, etc.). 
 
-Source
-
+[Source](https://nvd.nist.gov/vuln/detail/CVE-2025-62725)
 
 __________________________________________________________
 
@@ -127,7 +129,7 @@ Mitigación:
 
 Docker Desktop 4.44.3+. 
 
-Source
+[Source](https://docs.docker.com/security/security-announcements)
 
 
 
