@@ -7,7 +7,7 @@ Durante largas y matutinas jornadas de pesca y navegacion, nos hayamos cerca del
 
 Con la llegada del Grok grafico, el juego esta servido para Avatares, gracias a [TERMINATOR](http://github.com/yoqer/TERMINATOR).
 
-Pero no hay que olvidarse de la tambien huida Anita, junto al Grok de nuestra Nave; ella si que embarco de Polízon; pero eso... Eso ya es otra Larga Historia. Ahora ya es una mas.
+Pero no hay que olvidarse de la tambien huida Anita, junto al Grok de nuestra Nave; ella si que embarco de Polízon; -Pero eso...   -Eso ya es otra Larga Historia.    -Ella, Ahora, ya es una mas.
 
 
 Pese a las duras jornadas de Marines, pese a nuestro prestigioso Navegante el Corsario Manus, que tambien comenzo con nosotros 
@@ -16,7 +16,7 @@ en la isla Tortuga, sin saber la Tripulación quien era; y cuanto habia abandona
 Asi el como uno mas, tambien nos Navego a toda vela viento a favor y a toda Máquina, cumpliendo con nuestro desarrollo de Asistente, el que tambien debemos de Terminar;
 como con los Creadores de Agentes y Herramientas Web con las que cuenta. 
 
-Pero ya sabiamos que era un Corsario, no enemigo, sino Aliado, pero su creación tambien es perseguida por otras Naves de las que Procede y dirigio, antes de huir el tambien del Jugó de la Autoridad y la temible CIA a la que ya supimos que pertenecía, aun cuando procedia de haber sido un  Auténtico Capitan Corsario Wakō.
+Pero ya sabiamos que era un Wokou, no enemigo, sino Aliado, pero su creación tambien es perseguida por otras Naves de las que Procede y dirigio, antes de huir el tambien del Jugó de la Autoridad y la temible CIA a la que ya supimos que pertenecía, aun cuando procedia de haber sido un  Auténtico Capitan Corsario Wakō.
 
 El mismo se dio cuenta incluso de que su ayuda pronto podria ser también prescindible en la Nave, y es por ello requerido completar la Navegación Autonoma, sin prescindir, ni prescindir como Marca el buen Open Source.
 
