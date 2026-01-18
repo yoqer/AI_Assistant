@@ -119,3 +119,9 @@ no se olvide de revisar bien a fondo la sala de maquinas, a ver si entiende porq
  <img width="960" height="960" alt="IMG_20250428_132938" src="https://github.com/user-attachments/assets/2580012d-175e-4c85-b2ee-430e3e691891" />
 
  -Dicho y hecho, mi Capitán, no le quitare el ojo de encima.
+
+
+
+
+
+[Revisar Bodegas](https://github.com/yoqer/AI_Assistant/blob/main/RevisionHarqueo.md)
