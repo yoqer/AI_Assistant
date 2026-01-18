@@ -1,0 +1,43 @@
+services:
+  ai-app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - LOCAL_BASE_URL
+      - REMOTE_BASE_URL
+      - LOCAL_MODEL_NAME
+      - REMOTE_MODEL_NAME
+      - OPENROUTER_API_KEY
+      - REMOTE_API_KEY
+      - REMOTE_PROVIDER
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    # Hardening básico
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /home
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 256
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/health"]
+
+    depends_on:
+      - llm
+
+  llm:
+    provider:
+      type: model
+      options:
+        model: ai/qwen2.5
+
+# Perfil opcional para desarrollo: mount del código (NO recomendado en producción)
+profiles:
+  dev: {}
+  
