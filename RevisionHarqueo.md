@@ -1,8 +1,12 @@
 
 
+![grok_image_xedm5wy](https://github.com/user-attachments/assets/c4fb3bf9-9344-4132-aecf-0d3dc6b40e06)
+
+
+
 
 -Efectivamente capitán la bodega no esta llena de Whisky como 
-creo que buscan esos dos bribones, pero el armazon es un casco 
+creo que siguen buscando esos dos bribones, pero el armazon es un casco 
 antiguo y no cuenta con las últimas mejoras actuales, como las de nuestro Gran TerMiNaTor.  
 
 
