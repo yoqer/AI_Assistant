@@ -30,7 +30,9 @@ y monta
 además de extra_hosts: 
 
 host.docker.internal:host-gateway. 
+
 Source
+
 
 app.py 
 
@@ -55,8 +57,12 @@ vs
 la cloud.
 
 Source
-Dockerfile usa python: 3.12-slim.
 
+
+
+Dockerfile usa python:
+
+3.12-slim.
 
 Source
 
@@ -65,4 +71,46 @@ Source
 
 
 
-____________
+____________________________________________________________
+
+
+
+
+
+**CVEs qué aplica aquí:**
+
+
+CVE-2025-62725 
+
+(Path traversal en Docker Compose)
+
+
+-Este Repo contiene uso de Docker Compose 
+
+(docker-compose.yaml), 
+
+así que aplica al entorno si se ejecuta Compose vulnerable. 
+
+La mitigación real aquí es actualizar Docker Compose a v2.40.2+ 
+
+**Por lo que Repositorio ya explica usar la última versión.**
+
+(no se “arregla” desde YAML). 
+
+Aun así, se puedo endurecer el compose para reducir superficie (evitar mounts innecesarios, read-only, no-new-privileges, etc.). 
+
+Source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
