@@ -211,11 +211,11 @@ para charlar con Docker Model Runner, pero lo dejo explícito.
 
 Se mantiene el servicio llm tal cual (provider model runner), por mecánica de abordo.
 
+_____________________________
 
 [<img width="1920" height="1920" alt="New_Zip_Mejorado" src="https://github.com/user-attachments/assets/f5db1da3-73e8-42af-843b-1fbecda472a1"/>](https://github.com/yoqer/AI_Assistant/tree/new_main)
 
 
-![grok_image_x8uwc1o](https://github.com/user-attachments/assets/f5db1da3-73e8-42af-843b-1fbecda472a1)
 
 
 _____________________________
