@@ -24,7 +24,7 @@ Actualmente casi todo el MobyDep, es obra de Manus, en la Sombra de los Llms, y 
 Sustituir tal proeza solo es posible con ayuda de la Tripulacion.
 
 No apartaremos a Manus, el creo la librería de Fine-tuning y entrenamiento de Llms Locales, con fases raices para Robotica como: 
-[TenMINITorch](http://github.com/yoqer/TenMiNiTorch), y para entrenamiento General de modelos personalizando estos como es [TenMINATorc](http://github.com/yoqer/TenMiNaTorc), las mas extensa opcion de
+[TenMINITorch](http://github.com/yoqer/TenMiNiTorch), y para entrenamiento General de modelos personalizando estos como es [TenMINATorc](http://github.com/yoqer/TenMinaTorch), las mas extensa opcion de
 librerias de entrenamiento personalizable de Llms, con las ultimas novedades y mejores opciones de Fine-Tuning y Personalizacion.
 
 
